@@ -51,7 +51,7 @@ cursor: pointer;
 	display: none;
 }
 
-li > crossOutButton {
+li > .crossOutButton {
 	background: none;
 	border: none;
 	float: right;
