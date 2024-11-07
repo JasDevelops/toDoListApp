@@ -12,6 +12,15 @@ $(function () {
         li.on('dblclick', function () {
             li.addClass('strike'); // cross out 
         });
+
+        // x to delete item
+        let deleteButton = $('<button class="crossOutButton">X</button>'); // create button with the class crossOutButton
+        li.append(deleteButton); // append x-button to each <li>
+
+        deleteButton.click(function () {
+            li.remove(); //remove list item when clicked
+        })
+
     }
     // Link function to click-button
     $('#button').click(newItem);
