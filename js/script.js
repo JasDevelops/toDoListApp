@@ -8,6 +8,8 @@ $(function () {
         li.append(inputValue); //append inputValue
         list.append(li); //append <li> from list
 
+        $('#input').val(''); // clear input after adding item
+
         // add crossing out function
         li.on('dblclick', function () {
             li.addClass('strike'); // cross out 
