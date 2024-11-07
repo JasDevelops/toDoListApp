@@ -26,7 +26,7 @@ $(function () {
     }
 
     // Make list sortable via jQuery UI
-    $('#list').sortable (); // Reorder via drag and drop
+    $('#list').sortable(); // Reorder via drag and drop
     $('#list').disableSelection(); // Prevent text from being selected
 
     // Link function to click-button
